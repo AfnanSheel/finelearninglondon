@@ -15,7 +15,7 @@ export default function ContactPage() {
               <span className="font-semibold">Address:</span> 628–630 Green Lanes, London N8 0SD
             </p>
             <p>
-              <span className="font-semibold">Email:</span> finelearninglondonlimited@gmail.com
+              <span className="font-semibold">Email:</span> admin@finelearninglondon.co.uk
             </p>
             <p>
               <span className="font-semibold">Phone:</span> +44 7474 897951 / 07900000465
