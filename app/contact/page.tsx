@@ -29,6 +29,28 @@ export default function ContactPage() {
                     <p className="font-semibold text-[color:var(--brand-navy)]">Address</p>
                     <p className="mt-1">628–630 Green Lanes, London N8 0SD</p>
                   </div>
+                  <iframe
+                    src="https://www.google.com/maps?q=628-630%20Green%20Lanes%20London%20N8%200SD&output=embed"
+                    width="100%"
+                    height="250"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    style={{
+                    borderRadius: "12px",
+                    border: 0,
+                   }}
+                  ></iframe>
+
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=628-630+Green+Lanes+London+N8+0SD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center justify-center rounded-xl border bg-white px-4 py-2 text-sm font-medium text-[color:var(--brand-navy)] hover:bg-slate-50 transition"
+                  >
+                  Open in Google Maps
+                  </a>
+
+
 
                   <div>
                     <p className="font-semibold text-[color:var(--brand-navy)]">Email</p>
@@ -85,7 +107,11 @@ export default function ContactPage() {
                   <span className="font-medium"> admin@finelearninglondon.co.uk</span>.
                 </p>
 
-                <form className="mt-6 space-y-4">
+                <form action="https://formsubmit.co/admin@finelearninglondon.co.uk" method="POST">
+
+                  <input type="hidden" name="_subject" value="New Childcare Enquiry – Fine Learning London"/>
+                  <input type="hidden" name="_captcha" value="false"/>
+                  <input type="hidden" name="_template" value="table"/>
                   <div>
                     <label className="text-sm font-medium text-[color:var(--brand-navy)]">Parent/Guardian name</label>
                     <input
