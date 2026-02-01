@@ -5,7 +5,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl">
           <div className="rounded-3xl border bg-gradient-to-br from-orange-50 via-white to-sky-50 p-10 md:p-14">
             <p className="inline-flex items-center rounded-full border bg-white px-4 py-2 text-sm font-medium text-[color:var(--brand-navy)]">
-              Get in touch • No social media
+              Get in touch 
             </p>
 
             <h1 className="mt-6 text-4xl md:text-5xl font-bold tracking-tight text-[color:var(--brand-navy)]">
@@ -91,7 +91,7 @@ export default function ContactPage() {
                       </p>
                     </div>
                     <p className="mt-3 text-xs text-gray-500">
-                      No social media — contact us by phone or email.
+                      Contact us by phone or email.
                     </p>
                   </div>
                 </div>
@@ -103,8 +103,7 @@ export default function ContactPage() {
                   Send an enquiry
                 </h2>
                 <p className="mt-2 text-sm text-gray-600">
-                  Leave your details and a short message. Next, we’ll connect this form so it sends directly to
-                  <span className="font-medium"> admin@finelearninglondon.co.uk</span>.
+                  Leave your details and a short message. 
                 </p>
 
                 <form action="https://formsubmit.co/admin@finelearninglondon.co.uk" method="POST">
@@ -113,12 +112,16 @@ export default function ContactPage() {
                   <input type="hidden" name="_captcha" value="false"/>
                   <input type="hidden" name="_template" value="table"/>
                   <div>
-                    <label className="text-sm font-medium text-[color:var(--brand-navy)]">Parent/Guardian name</label>
-                    <input
-                      className="mt-1 w-full rounded-xl border bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[color:var(--brand-orange)]"
-                      placeholder="Your name"
-                    />
-                  </div>
+                    <label className="text-sm font-medium text-[color:var(--brand-navy)]">
+                      Parent/Guardian name
+                    </label>
+                 <input
+                   name="name"
+                    required
+                    className="mt-1 w-full rounded-xl border bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[color:var(--brand-orange)]"
+                  placeholder="Your name"
+                   />
+                </div>
 
                   <div>
                     <label className="text-sm font-medium text-[color:var(--brand-navy)]">Email</label>

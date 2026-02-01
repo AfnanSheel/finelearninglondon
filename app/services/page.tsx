@@ -1,8 +1,8 @@
 export default function ServicesPage() {
   return (
     <main className="mx-auto max-w-7xl px-6 py-16">
-      <h1 className="text-4xl font-bold text-[color:var(--brand-navy)]">Childcare Services</h1>
-      <p className="mt-6 max-w-2xl text-gray-700 leading-relaxed">
+      <h1 className="text-4xl font-bold">Childcare Services</h1>
+      <p className="mt-6 max-w-2xl text-white-700 leading-relaxed">
         After-school childcare for ages 5–16 in a warm, safe setting. Sessions are structured around
         calm routines, supportive supervision and a friendly environment.
       </p>
@@ -34,11 +34,11 @@ export default function ServicesPage() {
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
           <div className="rounded-xl border bg-slate-50 p-4">
             <p className="font-medium">Weekdays</p>
-            <p className="mt-1">Monday, Tuesday, Thursday — 17:00–21:15</p>
+            <p className="mt-1">Monday, Tuesday, Thursday: 17:00–21:15</p>
           </div>
           <div className="rounded-xl border bg-slate-50 p-4">
             <p className="font-medium">Weekend</p>
-            <p className="mt-1">Saturday — 09:00–18:15</p>
+            <p className="mt-1">Saturday: 09:00–18:15</p>
           </div>
         </div>
         <p className="mt-4 text-sm text-gray-700">

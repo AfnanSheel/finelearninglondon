@@ -18,7 +18,7 @@ export default function Home() {
 
             <p className="relative mt-5 text-lg md:text-xl max-w-2xl leading-relaxed text-gray-700">
               A warm, safe and welcoming after-school childcare setting where children can unwind,
-              feel supported, and enjoy a positive routine — with caring supervision and a calm environment.
+              feel supported, and enjoy a positive routine with caring supervision and a calm environment.
             </p>
 
             <div className="relative mt-8 flex flex-col sm:flex-row gap-3">
@@ -62,15 +62,15 @@ export default function Home() {
               <div className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
                 <div className="rounded-xl bg-white p-4 border">
                   <p className="font-medium">Weekdays</p>
-                  <p className="mt-1">Monday, Tuesday, Thursday — 17:00–21:15</p>
+                  <p className="mt-1">Monday, Tuesday, Thursday: 17:00–21:15</p>
                 </div>
                 <div className="rounded-xl bg-white p-4 border">
                   <p className="font-medium">Weekends</p>
-                  <p className="mt-1">Saturday — 09:00–18:15</p>
+                  <p className="mt-1">Saturday: 09:00–18:15</p>
                 </div>
               </div>
               <p className="mt-3 text-xs text-gray-500">
-                No social media — contact us by phone or email.
+                Contact us by phone or email.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
             A place to feel safe, settled and supported
           </h2>
           <p className="mt-3 max-w-2xl text-gray-700 leading-relaxed">
-            We focus on a friendly atmosphere, consistent routines, and caring supervision —
+            We focus on a friendly atmosphere, consistent routines, and caring supervision; 
             helping children feel comfortable after school and giving parents peace of mind.
           </p>
 
@@ -120,7 +120,7 @@ export default function Home() {
               Ready to enquire?
             </h3>
             <p className="mt-3 max-w-2xl text-white/90">
-              Send us a message or call — we’ll be happy to help you find the right session.
+              Send us a message or call and we’ll be happy to help you find the right session.
             </p>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
@@ -145,7 +145,7 @@ export default function Home() {
       <footer className="border-t bg-white px-6 py-10">
         <div className="mx-auto max-w-7xl text-sm text-gray-600 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
           <p>© {new Date().getFullYear()} Fine Learning London Limited.</p>
-          <p className="text-gray-500">No social media • Contact via phone or email</p>
+          <p className="text-gray-500">Contact via phone or email</p>
         </div>
       </footer>
     </main>
